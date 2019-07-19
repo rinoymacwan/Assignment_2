@@ -10,6 +10,12 @@ namespace Assignment_2
     {
         static void Main(string[] args)
         {
+            
+            HR emp1 = new HR("Yesha", 8000, 4);
+            Dev emp2 = new Dev("Rinoy", 8000, 5);
+            emp1.Display();
+            emp2.Display();
+            Console.ReadKey();
         }
     }
 }
